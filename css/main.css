@@ -1,29 +1,30 @@
 html {
-
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #fff;
-    margin: 0;
-  }
+  background-color: #fff;
+  margin: 0;
+}
 
 h1 {
-    color: #b20953;
-    font-family: 'Sigmar One', Georgia;
-    text-align: center;
-    margin: 0;
-  }
+  color: #b20953;
+  font-family: "Sigmar One", Georgia;
+  text-align: center;
+  margin: 0;
+}
 
 h2 {
-    text-align: left;
-    font-family: 'Sigmar One', Georgia;
-    color: #cc1465;
+  text-align: left;
+  font-family: "Sigmar One", Georgia;
+  color: #cc1465;
 }
 
 p {
-    text-align: left;
-
+  text-align: left;
+  color: #2f2d13;
 }
+
 ul {
   list-style-type: none;
   font-family: georgia;
@@ -51,7 +52,6 @@ footer, header {
 li {
   display: inline-block;
   border-radius: 4px;
-
 }
 
 nav {
@@ -71,16 +71,20 @@ footer {
   display: block;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .image-flex {
   width: 100%;
   display: block;
 }
 
-*::before, *::after {
-  html {
-    box-sizing: border-box;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
+.nav .current {
+  background-color: #2f2d13;
 }
