@@ -1,29 +1,59 @@
 body {
-    background-color: white
+    background-color: #fff;
   }
 
 h1 {
-    color: #cc1465
-  }
-
-h1 {
+    color: #cc1465;
+    font-family: 'Sigmar One', Georgia;
     text-align: center;
   }
-
-h1 {
-    font-family: ;
-}
 
 h2 {
-    text-align: center;
+    text-align: left;
+    font-family: 'Sigmar One', Georgia;
+    color: #cc1465;
 }
 
 p {
-    text-align: center;
+    text-align: left;
+
 }
 ul {
-  list-style-type: Georgia, Sigmar One;
-margin: .3em
-padding: .2em .5em .3em`, `0 .75em`, `.75em`
+  list-style-type: none;
+  font-family: georgia;
+  margin: .3em
+  padding: .2em .5em .3em, 0 .75em, .75em;
+}
+
+a {
+  color: #fff;
+  background-color: #b2a212;
+  text-decoration: none;
+  padding: .2em .5em .3em;
+  text-align: center;
+}
+
+a:hover {
+  color: #cc1465;
+}
+
+footer, header {
+  background-color: #ffe500;
+}
+
+li {
+  display: inline-block;
+
+}
+
+nav {
+  padding-bottom: .75em;
+}
+
+footer p {
+  text-align: center;
+}
+
+img {
 
 }
